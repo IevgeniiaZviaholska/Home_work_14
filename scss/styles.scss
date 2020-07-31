@@ -1,0 +1,486 @@
+html {
+    background-color: #3B181E;
+}
+
+body {
+    font-family: 'Forum', cursive; 
+    background-color: #3B181E;
+    height: 100vh;
+    color: white;
+}
+
+.header-page {
+    width: 1920px;
+    height: 1028px;
+    object-fit: cover;
+    object-position: center;
+    background-image: url(../img/background-frame.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    .gradient {
+        position: absolute;
+        bottom: 0;
+        width: 1920px;
+        height: 75px;
+        background: linear-gradient(0deg, #3B181E 3.33%, rgba(59, 24, 30, 0) 100%);
+    }
+
+}
+
+.header {
+    width: 1720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-family: 'Forum', cursive; 
+}
+
+.header__title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    text-align: center;
+    margin-top: 190px;
+    h1 {
+        font-size: 120px;
+    }
+}
+
+.button {
+    margin-top: 80px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.footer__header__page {
+    width: 1720px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+}
+
+.society {
+    display: flex;
+    flex-direction: column;
+    p {
+        margin: 10px;
+    }
+}
+
+.text {
+    writing-mode: tb-rl;
+    font-size: 20px;
+}
+
+.catalog {
+    background-color: #3B181E;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px; 
+    text-align: center; 
+
+    h4 {
+        margin-top: 200px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Forum', cursive; 
+    }
+}
+
+.line-h4 {
+    width: 85.5px;
+    border: 2px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-fon {
+    font-size: 220px;
+    color: #FFFFFF;
+    opacity: 0.03;
+    text-align: center; 
+    line-height: 170px;
+    z-index: -2;
+}
+
+.block {
+    width: 330px;
+    height: 450px;
+
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    
+    
+}
+
+.block1 {
+    background-image: url(../img/katalog-image1.png);
+    position: relative;
+    z-index: 0;
+}
+
+.block2 {
+    background-image: url(../img/katalog-image2.png);
+    position: relative;
+    z-index: 0;
+}
+.block3 {
+    background-image: url(../img/katalog-image3.png);
+    position: relative;
+    z-index: 0;
+}
+.block4 {
+    background-image: url(../img/katalog-image4.png);
+    position: relative;
+    z-index: 0;
+}
+
+
+.block1-content {
+    width: 330px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0);
+}
+
+.button {
+    display: none;
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    color: #010001;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-top: 4px;
+}
+
+.block1-content:hover {
+    width: 330px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.7);
+    outline: 1px solid rgba(255, 255, 255, 0.2);
+    outline-offset: +10px;
+
+    .button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        background: #FFFFFF;
+        color: #010001;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 20px;
+        padding-top: 4px;
+    }
+}
+
+
+.grid {
+    width: 1600px;
+    margin-top: -80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.line {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.block-text {
+    flex-grow: 1;
+    display: flex;
+    font-size: 16px;
+    align-items: flex-end;
+}
+
+.block2-1 {
+    width: 700px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
+
+.akcia {
+    background-color: #3B181E;
+    text-align: center; 
+
+}
+
+.block5 {
+    color: white;
+    text-align: left;
+    width: 700px;
+    max-height: 410px;
+    padding-left: 170px;
+    padding-top: 50px;
+}
+.block6 {
+    width: 700px;
+    max-height: 410px;
+    object-fit: cover;
+    object-position: center;
+    background-image: url(../img/katalog-image5.png);
+    background-repeat: no-repeat;
+
+}
+
+.block_content2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #3B181E;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-secondary {
+    font-size: 11px;
+    margin-top: 50px;
+    display: block;
+    width: 220px;
+    background-color: black;
+    color: white;
+    
+}
+
+.footer__line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% - 5%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__link {
+    width: 1000px;
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    a {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+    }
+    
+}
+
+.society__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    p {
+        margin: 10px;
+        margin-left: 50px;
+    }
+}
+
+.wrapper {
+    width: 180px;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 40px;
+    
+}
+
+#check-menu {
+    display: none;
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: .5s all;
+}
+
+.second, .third {
+    top: 18px;
+}
+
+.fourth {
+    top: 28px;
+}
+
+.main-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+}
+
+.main-menu a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.main-menu a:hover {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+
+
+#check-menu:checked ~ .main-menu {
+    max-height: 500px;
+    font-size: 20px;
+    
+}
+
+#check-menu:checked ~ .first {
+    display: none;
+}
+
+#check-menu:checked ~ .second {
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third {
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth {
+    display: none;
+}
+
+.frame2 {
+    width: 1920px;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/katalog-image6.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.border {
+    width: 996px;
+    position: absolute;
+    height: 1021px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.frame-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    height: 900px;
+    padding-right: 250px;
+    margin: 0 0 0 auto;
+    h1 {
+        font-size: 50px;
+    }
+    .button {
+        background-color: #3B181E;
+        width: 135px;
+    }
+}
+
+.list-flovers {
+    width: 800px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.list-flowers-frame {
+    width: 123px;
+    height: 123px;
+    margin-right: 20px;
+}
+
+.arrow {
+    width: 46px;
+    height: 46px;
+    right: 50px;
+    position: relative;
+}
+
+.foto-profile {
+    text-align: right;
+    font-size: 18px;
+    margin-right: 20px;
+
+    img {
+        margin-left: 20px;
+    }
+}
